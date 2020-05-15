@@ -13,7 +13,7 @@ struct ContentView: View {
     @State var isActive: Bool = false
     
     var body: some View {
-       
+        
                 //Declara la vista de navigacion
                 NavigationView{
                     //Stag Vertical
@@ -27,8 +27,10 @@ struct ContentView: View {
                             //Aqui le damos el varlo true para que puede abrir se la nueva vista
                             self.isActive = true
                             
-                            }}
-                        //F
+                        }
+                            
+                        }
+                        
                         
                     }
                 }
